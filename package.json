@@ -1,0 +1,20 @@
+{
+    "name": "Sumind'blog",
+    "version": "1.0.0",
+    "repository": "http://fengkunkun.gitlab.io/blog-20190716",
+    "author": "sumind",
+    "devDependencies": {
+        "@vuepress/plugin-medium-zoom": "1.0.0-alpha.0",
+        "vuepress": "1.0.1",
+        "vuepress-plugin-flowchart": "1.4.3",
+        "vuepress-theme-reco": "1.0.2",
+        "webpack": "^4.36.1"
+    },
+    "scripts": {
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs"
+    },
+    "dependencies": {
+        "save-dev": "^2.0.0"
+    }
+}
